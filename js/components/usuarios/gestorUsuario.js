@@ -108,29 +108,32 @@ class GestorUsuarios {
             </tr>
             <tr>
                 <td>${entrenador1.entrenador}</td>
-                <td><img src="${entrenador1.foto}" alt="${entrenador1.entrenador}" width="50"></td>
+                <td><img src="${entrenador1.foto}" alt="${entrenador1.entrenador}" width="50" style="display: block; margin-left: auto; margin-right: auto;"></td>
 
                 <td>${pokemon1.nombre} </td>
-                <td><img src="${pokemon1.foto}" alt="${pokemon1.nombre}" width="50"></td>
+                <td><img src="${pokemon1.foto}" alt="${pokemon1.nombre}" width="50" style="display: block; margin-left: auto; margin-right: auto;"></td>
             </tr>
             <tr>
             <td>${entrenador2.entrenador}</td>
-            <td><img src="${entrenador2.foto}" alt="${entrenador2.entrenador}" width="50"></td>
+            <td><img src="${entrenador2.foto}" alt="${entrenador2.entrenador}" width="50" style="display: block; margin-left: auto; margin-right: auto;"></td>
 
             <td>${pokemon2.nombre} </td>
-            <td><img src="${pokemon2.foto}" alt="${pokemon2.nombre}" width="50"></td>
+            <td><img src="${pokemon2.foto}" alt="${pokemon2.nombre}" width="50" style="display: block; margin-left: auto; margin-right: auto;"></td>
             </tr>
-            <tr>
-                <td colspan="3">Ganador: ${ganador}</td>
-            </tr>
+          
         </table>
+        <center>
+        <h1>Ganador: ${ganador}</h1>
+
+        </center>
+    
     </div>
- `);
+ `
+);
 
     }
 
     esTipoFuerteContra(tipoAtacante, tipoDefensor) {
-        // Reglas de tipo Pokémon (ejemplo simple)
         if ((tipoAtacante === 'fuego' && tipoDefensor === 'planta') ||
             (tipoAtacante === 'agua' && tipoDefensor === 'fuego') ||
             (tipoAtacante === 'planta' && tipoDefensor === 'agua')) {
