@@ -1,0 +1,100 @@
+[
+    {
+      "entrenador": "Gary Owh",
+      "foto": "imagen/gary.PNG",
+
+      "pokemons": [
+        {
+          "nombre": "Venusaur",
+          "tipo": "planta",
+          "foto": "imagen/1.PNG"
+        },
+        {
+          "nombre": "Eevee",
+          "tipo": "normal",
+          "foto": "imagen/2.PNG"
+        },
+        {
+          "nombre": "Blastoise",
+          "tipo": "agua",
+          "foto": "imagen/3.PNG"
+        },
+        {
+          "nombre": "Arcanine",
+          "tipo": "fuego",
+          "foto": "imagen/4.PNG"
+        },
+        {
+          "nombre": "Alakazam",
+          "tipo": "psiquico",
+          "foto": "imagen/5.PNG"
+        }
+      ]
+    },
+    {
+      "entrenador": "Ash Quetchu",
+      "foto": "imagen/ash.PNG",
+
+      "pokemons": [
+        {
+          "nombre": "Charizard",
+          "tipo": "fuego",
+          "foto": "imagen/6.PNG"
+        },
+        {
+          "nombre": "Pikachu",
+          "tipo": "electrico",
+          "foto": "imagen/7.PNG"
+        },
+        {
+          "nombre": "Bulbasaur",
+          "tipo": "planta",
+          "foto": "imagen/8.PNG"
+        },
+        {
+          "nombre": "Squirtle",
+          "tipo": "agua",
+          "foto": "imagen/9.PNG"
+        },
+        {
+          "nombre": "Pidgeot",
+          "tipo": "volador",
+          "foto": "imagen/10.PNG"
+        }
+      ]
+    },
+    {
+      "entrenador": "Misty Waterflower",
+      "foto": "imagen/misty.PNG",
+
+      "pokemons": [
+        {
+          "nombre": "Starmie",
+          "tipo": "agua",
+          "foto": "imagen/11.PNG"
+        },
+        {
+          "nombre": "Psyduck",
+          "tipo": "agua",
+          "foto": "imagen/12.PNG"
+        },
+        {
+          "nombre": "Gyarados",
+          "tipo": "agua",
+          "foto": "imagen/13.PNG"
+        },
+        {
+          "nombre": "Goldeen",
+          "tipo": "agua",
+          "foto": "imagen/14.PNG"
+        },
+        {
+          "nombre": "Horsea",
+          "tipo": "agua",
+          "foto": "imagen/15.PNG"
+        }
+      ]
+    }
+   
+  ]
+  
